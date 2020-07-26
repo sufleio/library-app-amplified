@@ -1,0 +1,8 @@
+type Book @model {
+  id: ID!
+  name: String!
+  author: String!,
+  description: String,
+  available: Boolean!,
+  score: Float!
+}
